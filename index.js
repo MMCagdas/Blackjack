@@ -1,4 +1,3 @@
-// ./Cards_Image/Spades/10.png
 let printPlayer = document.querySelector("#print-oyuncu");
 let printDesk = document.querySelector("#print-desk");
 let playerBet = document.querySelector("#player-bet");
