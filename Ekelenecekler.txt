@@ -1,0 +1,18 @@
+==========CALISIYOR============
+KART CEKME SISTEMI
+CEKILEN KARTIN DESTEDEN SILINMESI
+KARTIN EKRANA DOGRU SEKILDE GOSTERILMESI
+OYUNCU ICIN KARTLARIN PUAN TOPLAMI
+OYUNU RESETLEME
+Ace hem 1 hem 11 olarak calismali
+Ilk round 21 ise oyunu direkt bitiriyor
+Ilk rounddan sonra 21 olur ise oto skipliyor
+PC ICIN TOPLAMA SISTEMI
+WIN-DRAW-LOSE ekrani calisiyor
+BET SISTEMI (Bet Up - Bet Down butonlari (+25 veya -25 seklinde calisacak))
+PARA SISTEMI
+===============================
+
+==========EKLENECEK============
+SPLIT CARD SISTEMI
+===============================

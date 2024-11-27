@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 12%;
+    padding: 25px;
+}
+
+.general-body{
+    max-width: 100%;
+    max-height: 50%;
+    
+}
+
+.dagitici{
+    padding: 25px;
+    margin: 25px;
+}
+
+.oyuncu{
+    padding: 25px;
+    margin: 25px;
+}
+
+#bet-up, #bet-down{
+    padding: 2% 2% 2% 2%;
+    align-items: center;
+}
+
+.player-money-bet{
+    font-size: 300%;
+    text-align: left;
+}
