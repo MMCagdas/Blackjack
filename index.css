@@ -1,33 +1,122 @@
-body{
-    text-align: center;
-    color: white;
-    background-color: black;
-    margin: 12%;
-    padding: 25px;
+* {
+  box-sizing: border-box;
 }
 
-.general-body{
-    max-width: 100%;
-    max-height: 50%;
-    
+body {
+  margin: 0;
+  background: #121212;
+  color: #a0d8f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
 }
 
-.dagitici{
-    padding: 25px;
-    margin: 25px;
+.general-body {
+  max-width: 700px;
+  width: 100%;
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 0 15px #0af88c88;
 }
 
-.oyuncu{
-    padding: 25px;
-    margin: 25px;
+.player-money-bet {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
-#bet-up, #bet-down{
-    padding: 2% 2% 2% 2%;
-    align-items: center;
+.desk {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.player-money-bet{
-    font-size: 300%;
-    text-align: left;
+.desk h1 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: #0af8b5;
+}
+
+.desk h2 {
+  margin: 0;
+  font-weight: 600;
+  color: #76d0f1;
+}
+
+.dagitici,
+.oyuncu {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dagitici img,
+.oyuncu img {
+  width: 60px;
+  height: 90px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px #0af88c;
+  background: #222;
+  object-fit: contain;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.dagitici img[src],
+.oyuncu img[src] {
+  opacity: 1;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #0af88c;
+  color: #121212;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.buttons button:hover {
+  background: #07a06a;
+}
+
+.info-text {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #f0b67f;
+  min-height: 24px;
+}
+
+.player-money-bet button {
+  background: #0af8d8;
+  border: none;
+  color: #121212;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  user-select: none;
+}
+
+.player-money-bet button:hover {
+  background: #079e88;
 }
